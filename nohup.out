@@ -1,0 +1,7 @@
+183.156.55.117:54885 - - [25/Nov/2015 09:08:15] "HTTP/1.1 GET /" - 200 OK
+183.156.55.117:54890 - - [25/Nov/2015 09:08:43] "HTTP/1.1 POST /command" - 404 Not Found
+183.156.55.117:54890 - - [25/Nov/2015 09:08:45] "HTTP/1.1 POST /command" - 404 Not Found
+  File "code.py", line 19
+    if commandName=='ls'
+                       ^
+SyntaxError: invalid syntax
