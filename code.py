@@ -4,14 +4,20 @@ import web
 import commands
 urls=(
     '/','index',
+    '/update','update',
     '/command','command',    
 )
+
 
 class index:
     def GET(self):
         render = web.template.render('templates/')
         name = 'index'
-        return render.index() 
+        return render.index()
+class update:
+    def GET(self):
+        (status, output) = commands.getstatusoutput('git pull origin master')
+        return 'output:'+output
 
 class command:
     def POST(self):
