@@ -12,17 +12,6 @@ urls=(
     '/command','command',
     '/show','show'
 )
-
-
-
-class index:
-    def GET(self):
-        render = web.template.render('templates/')
-        name = 'index'
-        return render.index()
-
-
-
         
 
 if __name__ == "__main__":
