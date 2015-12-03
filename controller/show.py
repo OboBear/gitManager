@@ -10,6 +10,6 @@ class show:
         if commandName == 'repo':
             (status, output) = commands.getstatusoutput('ls ~/gitRepository/pythonServer/')
             return output;
-        if commandName == 'auth'
+        if commandName == 'auth':
             (status, output) = commands.getstatusoutput('cat ~/.ssh/authorized_keys')
             return output;
