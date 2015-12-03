@@ -6,13 +6,11 @@ from controller.index import index
 from controller.command import command
 from controller.show import show
 
-
 urls=(
     '/','index',
     '/command','command',
     '/show','show'
-)
-        
+)        
 
 if __name__ == "__main__":
     app = web.application(urls,globals())

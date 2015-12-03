@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
+
 import web
 import commands
-
 
 class command:
     def POST(self):
@@ -9,5 +9,5 @@ class command:
         commandName = postParams.get('command')
         print 'command:'+commandName+'\n'
         if commandName=="help":
-            return ''' show git:列出git仓库列表\n show auth:列出授权公钥\n create git'''
+            return ''' repo:列出git仓库列表\n auth:列出授权公钥\n'''
         return 'command'
