@@ -1,3 +1,6 @@
+import web
+import commands
+
 class command:
     def POST(self):
         postParams = web.input();
