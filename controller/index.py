@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import __init__
 #import web
 #import commands
