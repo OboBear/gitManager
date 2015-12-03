@@ -2,9 +2,9 @@
 #!/usr/bin/env python 
 import web
 import commands
-import controller.index
-import controller.command
-import controller.show
+from controller.index import index
+from controller.command import commands
+from controller.show import show
 
 
 urls=(
