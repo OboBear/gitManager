@@ -1,5 +1,6 @@
-import web
-import commands
+import __init__
+#import web
+#import commands
 
 class index:
     def GET(self):

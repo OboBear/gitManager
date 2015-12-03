@@ -1,5 +1,4 @@
-import web
-import commands
+import __init__
 
 class command:
     def POST(self):
