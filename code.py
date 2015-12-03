@@ -3,7 +3,7 @@
 import web
 import commands
 from controller.index import index
-from controller.command import commands
+from controller.command import command
 from controller.show import show
 
 
