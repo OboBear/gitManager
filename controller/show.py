@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
-import __init__
-#import web
-#import commands
+
+import web
+import commands
 
 class show:
     def POST(self):
