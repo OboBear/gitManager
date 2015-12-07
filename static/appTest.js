@@ -2,7 +2,7 @@ var xhr = new XMLHttpRequest();
 
 function send() {
 
-	xhr.open("GET", "/show", true);
+	xhr.open("POST", "/command", true);
 	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhr.onreadystatechange = function() {
 		var XMLHttpReq = xhr;
@@ -15,5 +15,6 @@ function send() {
 			}
 		}
 	};
-	xhr.send(null)
+	var postParam = {'request':'repo'};
+	xhr.send(postParam)
 }
