@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 function send() {
 	
-	xhr.open("GET", "http://120.27.51.48:9999", true);
+	xhr.open("GET", "/show", true);
 	
 	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 //	xhr.setRequestHeader("Content-type", "text/html");

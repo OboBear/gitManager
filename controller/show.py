@@ -13,3 +13,5 @@ class show:
         if commandName == 'auth':
             (status, output) = commands.getstatusoutput('cat ~/.ssh/authorized_keys')
             return output;
+    def GET(self):
+    		return "show"
