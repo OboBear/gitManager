@@ -15,6 +15,6 @@ function send() {
 			}
 		}
 	};
-	var postParam = {'command':'repo'};
+	var postParam = "command=repo";
 	xhr.send(postParam)
 }
