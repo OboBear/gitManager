@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 function send() {
-
+	
 	xhr.open("POST", "/command", true);
 	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhr.onreadystatechange = function() {
